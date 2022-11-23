@@ -1,0 +1,5 @@
+@use "@ds-core/basic";
+
+$line-height--l: basic.$size--tenfold + basic.$size--double;
+$line-height--m: basic.$size--eightfold;
+$line-height--s: basic.$size--sixfold;

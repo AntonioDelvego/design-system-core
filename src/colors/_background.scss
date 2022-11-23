@@ -1,0 +1,42 @@
+@use "@ds-core/basic";
+@use "@ds-core/basic/functions";
+
+$background__primary: basic.$color__primary;
+
+@function _get-primary-dark-color($opacity) {
+    @return functions.overlay-colors(
+        $background__primary,
+        basic.$color__overlay--dark-primary,
+        $opacity
+    )
+}
+
+$background__primary--dark-1: _get-primary-dark-color(basic.$opacity__step-1);
+$background__primary--dark-2: _get-primary-dark-color(basic.$opacity__step-2);
+$background__primary--dark-3: _get-primary-dark-color(basic.$opacity__step-3);
+$background__primary--dark-4: _get-primary-dark-color(basic.$opacity__step-4);
+$background__primary--dark-5: _get-primary-dark-color(basic.$opacity__step-5);
+$background__primary--dark-6: _get-primary-dark-color(basic.$opacity__step-6);
+$background__primary--dark-7: _get-primary-dark-color(basic.$opacity__step-7);
+$background__primary--dark-8: _get-primary-dark-color(basic.$opacity__step-8);
+$background__primary--dark-9: _get-primary-dark-color(basic.$opacity__step-9);
+$background__primary--dark-10: _get-primary-dark-color(basic.$opacity__step-10);
+
+@function _get-primary-light-color($opacity) {
+    @return functions.overlay-colors(
+        $background__primary,
+        basic.$color__overlay--light-primary,
+        $opacity
+    )
+}
+
+$background__primary--light-1: _get-primary-light-color(basic.$opacity__step-1);
+$background__primary--light-2: _get-primary-light-color(basic.$opacity__step-2);
+$background__primary--light-3: _get-primary-light-color(basic.$opacity__step-3);
+$background__primary--light-4: _get-primary-light-color(basic.$opacity__step-4);
+$background__primary--light-5: _get-primary-light-color(basic.$opacity__step-5);
+$background__primary--light-6: _get-primary-light-color(basic.$opacity__step-6);
+$background__primary--light-7: _get-primary-light-color(basic.$opacity__step-7);
+$background__primary--light-8: _get-primary-light-color(basic.$opacity__step-8);
+$background__primary--light-9: _get-primary-light-color(basic.$opacity__step-9);
+$background__primary--light-10: _get-primary-light-color(basic.$opacity__step-10);

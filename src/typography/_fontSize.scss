@@ -1,0 +1,8 @@
+@use "@ds-core/basic";
+
+$font-size--xxl: basic.$size--tenfold;
+$font-size--xl: basic.$size--sixfold;
+$font-size--l: basic.$size--fivefold;
+$font-size--m: basic.$size--quadruple;
+$font-size--s: basic.$size--triple + basic.$size--half;
+$font-size--xs: basic.$size--triple;

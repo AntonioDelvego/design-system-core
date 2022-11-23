@@ -1,0 +1,74 @@
+@use "sass:color";
+@use "@ds-core/basic";
+
+@function _primary-dark-overlay($opacity) {
+    @return color.change(
+        basic.$color__overlay--dark-primary,
+        $alpha: $opacity
+    );
+}
+
+$overlay__primary-dark-1: _primary-dark-overlay(basic.$opacity__step-1);
+$overlay__primary-dark-2: _primary-dark-overlay(basic.$opacity__step-2);
+$overlay__primary-dark-3: _primary-dark-overlay(basic.$opacity__step-3);
+$overlay__primary-dark-4: _primary-dark-overlay(basic.$opacity__step-4);
+$overlay__primary-dark-5: _primary-dark-overlay(basic.$opacity__step-5);
+$overlay__primary-dark-6: _primary-dark-overlay(basic.$opacity__step-6);
+$overlay__primary-dark-7: _primary-dark-overlay(basic.$opacity__step-7);
+$overlay__primary-dark-8: _primary-dark-overlay(basic.$opacity__step-8);
+$overlay__primary-dark-9: _primary-dark-overlay(basic.$opacity__step-9);
+$overlay__primary-dark-10: _primary-dark-overlay(basic.$opacity__step-10);
+
+@function _primary-light-overlay($opacity) {
+    @return color.change(
+        basic.$color__overlay--light-primary,
+        $alpha: $opacity
+    );
+}
+
+$overlay__primary-light-1: _primary-light-overlay(basic.$opacity__step-1);
+$overlay__primary-light-2: _primary-light-overlay(basic.$opacity__step-2);
+$overlay__primary-light-3: _primary-light-overlay(basic.$opacity__step-3);
+$overlay__primary-light-4: _primary-light-overlay(basic.$opacity__step-4);
+$overlay__primary-light-5: _primary-light-overlay(basic.$opacity__step-5);
+$overlay__primary-light-6: _primary-light-overlay(basic.$opacity__step-6);
+$overlay__primary-light-7: _primary-light-overlay(basic.$opacity__step-7);
+$overlay__primary-light-8: _primary-light-overlay(basic.$opacity__step-8);
+$overlay__primary-light-9: _primary-light-overlay(basic.$opacity__step-9);
+$overlay__primary-light-10: _primary-light-overlay(basic.$opacity__step-10);
+
+@function _secondary-dark-overlay($opacity) {
+    @return color.change(
+        basic.$color__overlay--dark-secondary,
+        $alpha: $opacity
+    );
+}
+
+$overlay__secondary-dark-1: _secondary-dark-overlay(basic.$opacity__step-1);
+$overlay__secondary-dark-2: _secondary-dark-overlay(basic.$opacity__step-2);
+$overlay__secondary-dark-3: _secondary-dark-overlay(basic.$opacity__step-3);
+$overlay__secondary-dark-4: _secondary-dark-overlay(basic.$opacity__step-4);
+$overlay__secondary-dark-5: _secondary-dark-overlay(basic.$opacity__step-5);
+$overlay__secondary-dark-6: _secondary-dark-overlay(basic.$opacity__step-6);
+$overlay__secondary-dark-7: _secondary-dark-overlay(basic.$opacity__step-7);
+$overlay__secondary-dark-8: _secondary-dark-overlay(basic.$opacity__step-8);
+$overlay__secondary-dark-9: _secondary-dark-overlay(basic.$opacity__step-9);
+$overlay__secondary-dark-10: _secondary-dark-overlay(basic.$opacity__step-10);
+
+@function _secondary-light-overlay($opacity) {
+    @return color.change(
+        basic.$color__overlay--light-secondary,
+        $alpha: $opacity
+    );
+}
+
+$overlay__secondary-light-1: _secondary-light-overlay(basic.$opacity__step-1);
+$overlay__secondary-light-2: _secondary-light-overlay(basic.$opacity__step-2);
+$overlay__secondary-light-3: _secondary-light-overlay(basic.$opacity__step-3);
+$overlay__secondary-light-4: _secondary-light-overlay(basic.$opacity__step-4);
+$overlay__secondary-light-5: _secondary-light-overlay(basic.$opacity__step-5);
+$overlay__secondary-light-6: _secondary-light-overlay(basic.$opacity__step-6);
+$overlay__secondary-light-7: _secondary-light-overlay(basic.$opacity__step-7);
+$overlay__secondary-light-8: _secondary-light-overlay(basic.$opacity__step-8);
+$overlay__secondary-light-9: _secondary-light-overlay(basic.$opacity__step-9);
+$overlay__secondary-light-10: _secondary-light-overlay(basic.$opacity__step-10);

@@ -1,0 +1,18 @@
+@use "fundamental" as fundamental;
+
+$_size: fundamental.$major-number * 1px;
+$_multiplier: 1;
+
+$size--single: 1 * $_multiplier * $_size;
+$size--double: 2 * $_multiplier * $_size;
+$size--triple: 3 * $_multiplier * $_size;
+$size--quadruple: 4 * $_multiplier * $_size;
+$size--fivefold: 5 * $_multiplier * $_size;
+$size--sixfold: 6 * $_multiplier * $_size;
+$size--sevenfold: 7 * $_multiplier * $_size;
+$size--eightfold: 8 * $_multiplier * $_size;
+$size--ninefold: 9 * $_multiplier * $_size;
+$size--tenfold: 10 * $_multiplier * $_size;
+
+$size--quarter: 0.25 * $_multiplier * $_size;
+$size--half: 0.5 * $_multiplier * $_size;

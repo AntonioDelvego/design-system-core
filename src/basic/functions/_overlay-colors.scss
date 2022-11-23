@@ -1,0 +1,9 @@
+@use "sass:color";
+
+@function overlay-colors($background-color, $overlay-color, $overlay-opacity) {
+    @return color.mix(
+        $overlay-color,
+        $background-color,
+        $overlay-opacity * 100%
+    );
+}

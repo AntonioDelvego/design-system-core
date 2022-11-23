@@ -1,0 +1,45 @@
+@use "fontSize" as *;
+@use "lineHeight" as *;
+@use "fontWeight" as *;
+
+@mixin font--h1 {
+    font-weight: $font-weight--normal;
+    font-size: $font-size--xxl;
+    line-height: $line-height--l;
+}
+
+@mixin font--h2 {
+    font-weight: $font-weight--semi-bold;
+    font-size: $font-size--xl;
+    line-height: $line-height--m;
+}
+
+@mixin font--h3 {
+    font-weight: $font-weight--normal;
+    font-size: $font-size--l;
+    line-height: $line-height--m;
+}
+
+@mixin font--base {
+    font-weight: $font-weight--normal;
+    font-size: $font-size--m;
+    line-height: $line-height--s;
+}
+
+@mixin font--bold {
+    font-weight: $font-weight--bold;
+    font-size: $font-size--m;
+    line-height: $line-height--s;
+}
+
+@mixin font--footnote {
+    font-weight: $font-weight--medium;
+    font-size: $font-size--s;
+    line-height: $line-height--s;
+}
+
+@mixin font--tags {
+    font-weight: $font-weight--heavy;
+    font-size: $font-size--xs;
+    line-height: $line-height--s;
+}
